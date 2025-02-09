@@ -1,0 +1,55 @@
+
+html,body{
+    background-color: black;
+}
+.container{
+    display: block;
+    box-sizing: border-boxing;
+    width: 900px;
+    border: 1px solid black;
+    padding: 50px 65px 80px 60px;
+    margin: 152.500px 78.500px 152.500px 85px;
+    background-color: black;
+    opacity: 0.8;
+    align-self: center;
+    position: relative;
+    left: 450px;
+    top: 85px;
+    height: 400px;
+}
+.field{
+    padding: 50px 50PX;
+    display: block;
+    width: 433px;
+    background-color: white;
+    border: 1px solid;
+    font-family: Verdana;
+    font-size: 25px;
+    font-family: arial;
+    font-optical-sizing: auto;
+    font-weight: 550px;
+    font-style: normal;
+    border-radius: 12px;
+    line-height: 1.3;
+    height: 245px;
+    margin-left: 40px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}
+.leg{
+    background-color: rgb(241, 7, 124);
+    padding: 22px 85px 32px 85px;
+    border-radius: 5px;
+
+    font-family: Arial;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+
+}
+
+
