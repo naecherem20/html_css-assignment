@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise5 css</title>
+    <link rel="stylesheet" href="designs/css/style5.css">
+</head>
+<body>
+    <div class="container" inert>
+        
+        <header>wp publisher <span class="headcontent">&nbsp;Download &nbsp;&nbsp;Learn more &nbsp;&nbsp;Pricing &nbsp;&nbsp;Help &nbsp;&nbsp;Account </span>
+        
+        </header>
+        <div class="inner">
+            <!--for the first inner block-->
+            <div class="first">
+                <button id="check">Checkout</button>
+                
+                <button id="info">1</button> <label>Your Basic Information</label>
+                <div class="basic">
+                    
+                    <label for="fname"> First Name</label>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Jane">
+
+                    <input type="text" name="lname" id="lname" placeholder="Doe">
+
+                    <label for="ename">Email</label>
+                    <input type="email" name="ename" id="ename" placeholder="janedoe@gmail.com">
+
+                </div>
+                
+                <div class="payment">
+                    <button id="pay">2</button> Your Payment Information
+                <br>                    
+                
+                <label for="card">Credit Card
+                </label>
+                <input name="card" id="card" placeholder="Card Number" type="tel" pattern="[0-9\s]{13,19}">
+                <button id="res">  Register</button>
+                </div>
+            </div>
+            <!--for the second inner block-->
+            <div class="second">
+                <p id="free">Freelancer</p>
+                <p id="amount"><span class="sub"><sup>$</sup></span>99<span class="sub"><sub>/year</sub></span></p>
+                <p id="auto">Automatically renews after 1 year</p>
+                <div class="radio">
+                <input type="radio" name="mark" value="sites" checked="true" id="mark"> 
+                <label for="sites"> Use on 5 client sites</label>
+                <br>
+                <input type="radio" name="up" value="private" checked="true" id="up"> 
+                <label for="private"> Private repositories</label>
+                <br>
+                <input type="radio" name="email" value="email" checked="true" id="email"> 
+                <label for="email"> email support</label>
+                </div>
+                
+
+                <button id="clients">
+                    Need 20 client sites?<br><u>Switch to agency plan</u>
+                </button>
+                <button id="pusher">
+                    FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+                </button>
+            </div>
+
+        </div>
+        
+
+    
+    </div>
+</body>
+</html>
